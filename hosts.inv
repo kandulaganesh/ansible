@@ -1,0 +1,6 @@
+[myhosts]
+10.255.83.176 ansible_ssh_user=root ansible_ssh_pass=default
+10.255.82.200 ansible_ssh_user=root ansible_ssh_pass=default
+
+[myhosts:vars]
+variable1=value2

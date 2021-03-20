@@ -1,0 +1,17 @@
+---
+- name: My First play
+  vars:
+    variable1: value1
+  hosts: [myhosts]
+  tasks:
+   - import_role:
+       name: samplerole
+   - name: Testing Handler's
+     command: touch /root/handlers_test
+     notify:
+     - handler test
+
+
+  handlers:
+    - name: handler test
+      command: echo "Echoing from the handler"

@@ -1,4 +1,3 @@
 ---
 # tasks file for samplerole
-- name: Hostname of machine is
-  command: hostname
+- import_tasks: hostname.yml

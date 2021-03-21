@@ -10,8 +10,3 @@
      command: touch /root/handlers_test
      notify:
      - handler test
-
-
-  handlers:
-    - name: handler test
-      command: echo "Echoing from the handler"

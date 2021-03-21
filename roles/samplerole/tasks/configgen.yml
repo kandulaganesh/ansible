@@ -1,0 +1,5 @@
+---
+- name: Template Task
+  template:
+    src: sample_template.conf.j2
+    dest: /etc/myconf.conf

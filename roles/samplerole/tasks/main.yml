@@ -1,3 +1,4 @@
 ---
 # tasks file for samplerole
 - import_tasks: hostname.yml
+- import_tasks: configgen.yml

@@ -1,2 +1,4 @@
 ---
 # handlers file for samplerole
+- name: handler test
+  command: echo "Echoing from the handler"

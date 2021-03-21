@@ -10,3 +10,5 @@
      command: touch /root/handlers_test
      notify:
      - handler test
+
+- import_playbook: import_plays.yml

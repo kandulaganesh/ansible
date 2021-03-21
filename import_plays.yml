@@ -1,0 +1,6 @@
+---
+- name: Importing Plays
+  hosts: [myhosts]
+  tasks:
+    - name: Task-1
+      command: echo "Echoing Task-1"
